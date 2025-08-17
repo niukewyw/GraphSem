@@ -1,3 +1,16 @@
+# GraphSem: Robust Multi-Agent Reinforcement Learning via Semantic-Graph Communication
+
+## Overview
+This repository contains the official implementation of **GraphSem**, a semantic-graph communication framework for robust multi-agent reinforcement learning (MARL).  
+GraphSem is designed to improve coordination under **stochastic partial observability** by combining:
+- **Transformer-based semantic encoding** to extract task-relevant features from noisy observations.  
+- **Dynamic communication weighting** to selectively transmit critical messages among agents.  
+- **Graph convolution with attention** to fuse distributed information into an expressive global representation.  
+
+To evaluate robustness, we introduce controlled perturbations such as **observation noise** and **randomized initial states**, enabling reproducible experiments under uncertainty.  
+Experiments on **SMAC** and **Traffic Junction** benchmarks show that GraphSem achieves **up to 30.4% higher win rates** than state-of-the-art baselines, with superior **sample efficiency** and **coordination stability**.
+
+---
 # Instructions
 
 This code is implemented based on [PyMARL](https://github.com/oxwhirl/pymarl), 
