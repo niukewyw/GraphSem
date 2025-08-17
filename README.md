@@ -67,7 +67,7 @@ Special thanks to **Sitong Shen** for developing and sharing the open-source cod
 ---
 # Citation
 
-If you find this repository useful, please cite our paper:
+If you find this project helpful, please consider to cite the following paper:
 ```bibtex
 @inproceedings{Xie2025GraphSem,
   author    = {Xie, Zaipeng and Wang, Yaowu and Shen, Sitong and Zhang, Jianan},
