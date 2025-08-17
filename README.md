@@ -57,5 +57,10 @@ The Python environment includes **all dependencies required to run GraphSem as w
 - **Other Useful Tools:**  
   - `easydict==1.13`, `pyyaml==6.0.2`, `tqdm==4.67.1`, `rich==14.0.0`, `tabulate==0.9.0`
 
-> ⚠️ **Note:** This environment has been verified to support not only **GraphSem** but also **all baseline algorithms** used in the experiments, ensuring reproducibility and consistency across comparisons.  
+> ⚠️ **Note:** This environment has been verified to support not only **GraphSem** but also **all baseline algorithms** used in the experiments, ensuring reproducibility and consistency across comparisons.
 
+---
+# Acknowledgements
+
+Special thanks to **Sitong Shen** for developing and sharing the open-source code that served as the foundation of this research.  
+Her dedication and contributions were essential to the successful implementation of GraphSem.  Without her support, this work would not have been possible.  
