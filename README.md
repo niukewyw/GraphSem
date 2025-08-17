@@ -62,5 +62,4 @@ The Python environment includes **all dependencies required to run GraphSem as w
 ---
 # Acknowledgements
 
-Special thanks to **Sitong Shen** for developing and sharing the open-source code that served as the foundation of this research.  
-Her dedication and contributions were essential to the successful implementation of GraphSem.  Without her support, this work would not have been possible.  
+Special thanks to **Sitong Shen** for developing and sharing the open-source code that served as the foundation of this research.  Her dedication and contributions were essential to the successful implementation of GraphSem.  Without her support, this work would not have been possible.  
