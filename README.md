@@ -33,3 +33,30 @@ python3 src/main.py --config=GraphSem --env-config=messy_sc2 with env_args.map_n
 If you want to test the ablation effect of the algorithm, you can find the Yaml files of several ablation algorithms of GraphSem under the configs folder.
 
 This code will use tensorboard and save model by default, which will be saved in `./results/`
+
+---
+# Prerequisites
+
+This project has been tested with the following environment setup.  
+The Python environment includes **all dependencies required to run GraphSem as well as all baseline comparison algorithms** (e.g., QMIX, AERIAL, GACG, CAMA, DFAC, SIDE).  
+
+- **Python:** 3.8+  
+- **Core Libraries:**  
+  - `torch==2.4.1+cu118`, `torchvision==0.19.1+cu118`, `torchaudio==2.4.1+cu118`  
+  - `tensorboard==2.14.0`, `tensorboardX==2.6.2.2`  
+  - `scipy==1.10.1`, `numpy==1.23.1`, `pandas==2.0.3`, `matplotlib==3.7.5`, `seaborn==0.13.2`  
+  - `scikit-learn==1.3.2`  
+- **Multi-agent RL / Environments:**  
+  - `SMAC==1.0.0`, `PySC2==4.0.0`, `s2clientprotocol==5.0.14.93333.0`, `s2protocol==5.0.14.93333.0`  
+  - `gym==0.23.1`, `gymnasium==1.0.0`, `atari-py==0.2.9`, `ale-py==0.10.1`  
+  - `gfootball==2.10.2`, `mujoco==3.2.3`, `mujoco-py==2.0.2.8`  
+  - `box2d-py==2.3.5`, `pybullet==3.2.7`  
+- **Communication / Graph Libraries:**  
+  - `torch-scatter==2.1.2+pt24cu118`, `graphviz==0.20.3`, `networkx==3.0`  
+- **Experiment Management:**  
+  - `sacred==0.8.7`, `tensorboard-logger==0.1.0`  
+- **Other Useful Tools:**  
+  - `easydict==1.13`, `pyyaml==6.0.2`, `tqdm==4.67.1`, `rich==14.0.0`, `tabulate==0.9.0`
+
+> ⚠️ **Note:** This environment has been verified to support not only **GraphSem** but also **all baseline algorithms** used in the experiments, ensuring reproducibility and consistency across comparisons.  
+
