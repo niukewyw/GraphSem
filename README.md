@@ -64,7 +64,6 @@ The Python environment includes **all dependencies required to run GraphSem as w
 
 If you find this repository useful, please cite our paper:
 
-```bibtex
 @inproceedings{Xie2025GraphSem,
   author    = {Xie, Zaipeng and Wang, Yaowu and Shen, Sitong and Zhang, Jianan},
   title     = {GraphSem: Robust Multi-Agent Reinforcement Learning via Semantic-Graph Communication},
