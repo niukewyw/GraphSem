@@ -49,8 +49,7 @@ The Python environment includes **all dependencies required to run GraphSem as w
 - **Multi-agent RL / Environments:**  
   - `SMAC==1.0.0`, `PySC2==4.0.0`, `s2clientprotocol==5.0.14.93333.0`, `s2protocol==5.0.14.93333.0`  
   - `gym==0.23.1`, `gymnasium==1.0.0`, `atari-py==0.2.9`, `ale-py==0.10.1`  
-  - `gfootball==2.10.2`, `mujoco==3.2.3`, `mujoco-py==2.0.2.8`  
-  - `box2d-py==2.3.5`, `pybullet==3.2.7`  
+  - `gfootball==2.10.2`, `pybullet==3.2.7`  
 - **Communication / Graph Libraries:**  
   - `torch-scatter==2.1.2+pt24cu118`, `graphviz==0.20.3`, `networkx==3.0`  
 - **Experiment Management:**  
